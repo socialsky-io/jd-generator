@@ -14,7 +14,7 @@ This is a simple job description generator that uses a finetuned version of Open
 - Faster, newer, and better version and package control
 
 ## Demo:
-![](demo.gif)
+![demo](https://github.com/Cveinnt/jd-generator/blob/main/demo.gif)
 
 ### Upcoming:
 - Prompt engineering tips
