@@ -13,6 +13,9 @@ This is a simple job description generator that uses a finetuned version of Open
 - Option to create your own examples and specify what you want
 - Faster, newer, and better version and package control
 
+## Demo:
+![](demo.gif)
+
 ### Upcoming:
 - Prompt engineering tips
 - UI fixes
