@@ -1,6 +1,9 @@
 # A Simple Job Description Generator Using GPT-3 
 
-This is a simple job description generator that uses a finetuned version of OpenAI's GPT-3 ([Brown et al.](https://arxiv.org/abs/2005.14165)).
+This is a simple job description generator that uses a finetuned version of OpenAI's GPT-3 ([Brown et al.](https://arxiv.org/abs/2005.14165)). 
+
+
+<sub><sub>Wrote in 2 hours. Quality not guaranteed.</sub></sub>
 
 ## Features:
 - Automate job description writing with 2 lines of Python (install and run). 
@@ -37,7 +40,7 @@ change `subprocess.Popen(["yarn", "start"])` to `subprocess.Popen(["yarn", "star
 ## Tech Stack:
 - Frontend: React
 - Backend: Flask
-- Language model: GPT-3-DaVinci
+- Language model: GPT-3 DaVinci
 
 ## Credits:
 Inspired by [gpt-3 sandbox](https://github.com/shreyashankar/gpt3-sandbox).
