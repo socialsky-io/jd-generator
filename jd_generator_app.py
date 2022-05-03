@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
-from .app import run_app, GPT, Example, UIConfig
+from app import run_app, GPT, Example, UIConfig
 
 gpt = GPT(temperature=0.7, max_tokens=500)
 

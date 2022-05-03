@@ -256,7 +256,6 @@ def run_app(gpt, config=UIConfig()):
     # POST translate
     @app.route("/translate", methods=["GET", "POST"])
     def translate():
-        # pylint: disable=unused-variable
         prompt = request.json["prompt"]
         response = gpt.submit_request(prompt)
         offset = 0

@@ -1,6 +1,6 @@
 {
   "short_name": "Job Description Generator",
-  "name": "Job Description Generator",
+  "name": "JD Generator",
   "icons": [],
   "start_url": ".",
   "display": "standalone",
