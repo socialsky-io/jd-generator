@@ -104,10 +104,10 @@ class App extends React.Component {
           <div
             style={{
               margin: "auto",
-              marginTop: "80px",
+              marginTop: "40px",
               display: "block",
-              maxWidth: "500px",
-              minWidth: "200px",
+              maxWidth: "900px",
+              minWidth: "300px",
               width: "50%"
             }}
           >
@@ -199,13 +199,7 @@ class App extends React.Component {
                 {this.state.buttonText}
               </Button>
             </Form>
-            <div
-              style={{
-                textAlign: "center",
-                margin: "20px",
-                fontSize: "18pt"
-              }}
-            >
+            <div class="generated">
               {this.state.output}
             </div>
           </div>

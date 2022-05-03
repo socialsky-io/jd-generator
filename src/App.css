@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.generated {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 12pt;
+  white-space: pre-line;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
