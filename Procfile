@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT flaskapp:jd-generator
+web: gunicorn jd-generator:app
