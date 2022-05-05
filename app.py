@@ -12,6 +12,7 @@ import os
 
 # Load .env file and get API key
 load_dotenv()
+port = int(os.getenv('PORT'))
 key = os.getenv('OPENAI_API_KEY')
 
 """Finetunes GPT-3 with Example and GPT classes."""
@@ -264,4 +265,4 @@ def run_app(gpt, config=UIConfig()):
         return {'text': response['choices'][0]['text'][offset:]}
 
     subprocess.Popen(["yarn", "start"])
-    app.run()
+    app.run(port=port)

@@ -1,1 +1,1 @@
-web: gunicorn app:jd-generator
+web: python3 app:jd-generator.py
