@@ -30,7 +30,7 @@ This is a simple job description generator that uses a finetuned version of Open
 1. Install python libraries: `pip install -r requirements.txt`
 2. Place your API key: use `echo export OPENAI_API_KEY=[key] > .env` to create an environment file, where `[key]` is your OpenAI API key. 
 3. Run `yarn install`
-4. Run `python3 jd_generator_app.py` and have fun!
+4. Run `python3 app.py` and have fun!
 
 A new tab should pop up in your browser, and the webapp should be ready! 
 To stop this app, run `ctrl-c` or `command-c` in your terminal.
