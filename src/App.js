@@ -199,7 +199,7 @@ class App extends React.Component {
                 {this.state.buttonText}
               </Button>
             </Form>
-            <div class="generated">
+            <div className="generated">
               {this.state.output}
             </div>
           </div>
